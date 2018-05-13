@@ -1,8 +1,8 @@
 function happyHolidays(string) {
   return "Happy holidays!"
 }
-function happyHolidaysTo(you) {
-  return 'Happy holidays, ${you}!'
+function happyHolidaysTo(name) {
+  return 'Happy holidays, ${name}!'
 }
 function happyHolidayTo(holiday, yourname) {
   return 'Happy ${holiday}, ${yourname}!'
@@ -10,3 +10,5 @@ function happyHolidayTo(holiday, yourname) {
 function holidayCountdown(days, holiday) {
   return "It's ${days} days until ${holiday}!"  
 }
+
+var name = "you"
